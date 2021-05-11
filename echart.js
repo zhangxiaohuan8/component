@@ -1,0 +1,1 @@
+$(function(){for(var t=echarts.init(document.getElementById("main1")),e=[],i=2e3;i<=2020;i+=5)e.push(i);var a={title:{text:"JavaScript语言排名变化"},tooltip:{},xAxis:{data:e},yAxis:{},series:[{name:"排名",type:"line",data:[6,9,8,8,7]}]};t.setOption(a)});
